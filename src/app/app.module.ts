@@ -18,6 +18,8 @@ import { Tab8Page } from '../pages/tab8/tab8';
 import { Tab9Page } from '../pages/tab9/tab9';
 import { Tab10Page } from '../pages/tab10/tab10';
 import { Tab11Page } from '../pages/tab11/tab11';
+import { FCM } from '@ionic-native/fcm';
+import { LocalNotifications } from '@ionic-native/local-notifications';
 
 @NgModule({
   declarations: [
@@ -56,6 +58,8 @@ import { Tab11Page } from '../pages/tab11/tab11';
     Tab11Page
   ],
   providers: [
+    FCM,
+    LocalNotifications,
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler}

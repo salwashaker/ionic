@@ -33,13 +33,13 @@ export class MyApp {
     // used for an example of ngFor and navigation
     this.pages = [
       { title: 'مرحبا بك', component: HomePage },
-      { title: 'طرق التغذية الصحيحة لمرضى السكري', component: Tab1Page },
+      { title: 'طرق التغذية الصحيحة  ', component: Tab1Page },
       { title: 'نصائح لمرضى السكري في رمضان', component: Tab2Page },
       { title: 'فحوصات مرض السكري', component: Tab3Page },
       { title: 'استخدام الاعشاب في علاج مرض السكري', component: Tab4Page },
       { title: 'كيفية التعامل مع مرضى السكري', component: Tab5Page },
       { title: 'معدل السكر التراكمي', component: Tab6Page },
-      { title: 'نصائح لمرضى السكري تتعلق بالصحة والرياضة', component: Tab7Page },
+      { title: 'نصائح  تتعلق بالصحة والرياضة', component: Tab7Page },
       { title: 'اسباب المرض ', component: Tab8Page },
       { title: 'طرق الوقاية من المرض', component: Tab9Page },
       { title: 'سكر الحمل وطرق الوقاية منه', component: Tab10Page },

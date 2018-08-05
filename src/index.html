@@ -30,7 +30,7 @@
   <link href="build/main.css" rel="stylesheet">
 
 </head>
-<body>
+<body style="background: #EFF1F2;">
 
   <!-- Ionic's root component and where the app will load -->
   <ion-app></ion-app>
@@ -44,6 +44,38 @@
 
   <!-- The main bundle js is generated during the build process -->
   <script src="build/main.js"></script>
+
+
+
+  <style>
+
+    .toolbar-title-ios {
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: #fff;
+    pointer-events: auto;
+}
+
+    .toolbar-ios ion-title {
+    background:  #239992;
+    left: 0;
+    top: 0;
+    padding: 0 90px 1px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    pointer-events: none;
+}
+ 
+ body{
+font-family: "Opens" !important;
+font-weight: 400 !important;
+}
+  </style>
+
 
 </body>
 </html>
